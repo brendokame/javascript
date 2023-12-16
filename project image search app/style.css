@@ -29,5 +29,27 @@ form {
     box-shadow: 0 0 6px rgba(0, 0 , 0, 0.2);
     border-radius: 5px;
     font-size: 18px;
+    color: #333;
     
 }
+
+#Search-button {
+    padding: 10px 20px;
+    background-color: #138065;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.search-results {
+    display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.search-result
