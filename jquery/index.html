@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <h1>Meu título</h1>
+    <p>P1</p>
+    <p id="txt" class="my_class">P2</p>
+    <p class="my_class">P3</p>
+    <p>P4</p>
+    <button id="btn" onclick="alert(1);">Clique Aqui</button>
+
+    <script>
+
+     $("#btn").click(function(){
+        $(".my_class").attr("style", "background:red");
+
+
+     });
+
+     
+
+    </script>
+
+</body>
+</html>
