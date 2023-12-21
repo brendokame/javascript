@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+    <script src=""https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <form action="api.php" id="my_form" method="get">
+
+        Nome: <input type="text"  id="nome" name="nome"><br>
+        Senha: <input type="password" name="senha" id="senha"> <br>
+        <input type="submit" name="" id="">
+    </form>
+
+    <script>
+        $("#my_form").submit(function(e){
+            e.preventDefault();
+            console.log($(this).serializeArray());
+        });
+    </script>
+</body>
+</html>
